@@ -1,0 +1,55 @@
+.container{
+    max-width: 1400px;
+}
+
+.carousel-item{
+    max-height: calc(100vh - 50px);
+    height: 100vh;
+    position: relative;
+    img{
+    
+          
+            width: 100%;
+
+            object-fit: cover;
+            object-position: center;
+            height: 100vh;
+            overflow: hidden;
+
+    }
+    .slide-content{
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,-50%);
+        .carousel-text{
+            text-shadow: 1px 2px 1px #000;
+            font-weight: 500;
+        }
+    }
+}
+
+.shopping-list{
+    height: 200vh;
+
+
+    .products{
+        width: 60%;
+    }
+    .shopping-cart{
+        width: 40%;
+        padding-top:5rem;
+background-color: #f7f7cc !important;
+grid-template-rows:10vh  max-height(65vh) 25vh ;
+
+        .cart{
+            height: auto;
+            
+            border: 3px solid red;
+            .cart-header{
+
+            }
+        
+        }
+    }
+}

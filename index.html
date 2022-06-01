@@ -25,11 +25,23 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/style/app.css" />
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar scroll</a>
+        <i
+          class="fa-solid fa-cart-shopping h-5 me-2 display-5 text-secondary"
+        ></i>
+        <a class="navbar-brand" href="#"> Shopping Cart</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,14 +59,174 @@
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#men">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#women">Women</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- Carousel -->
+    <section id="sliders">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide container"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/slider-1.avif"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-block slide-content d-none d-md-block"
+            >
+              <h5 class="text-warning h2 carousel-text">Summer Fashion</h5>
+              <p class="carousel-text">
+                <strong class="display-5" style="font-weight: 700">50%</strong>
+                Discount.
+              </p>
+              <a href="products">
+                <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
+                </i>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-2.avif" class="d-block" alt="..." />
+            <div
+              class="carousel-caption d-block slide-content d-none d-md-block"
+            >
+              <h5 class="text-warning h2 carousel-text">Summer Fashion</h5>
+              <p class="carousel-text">
+                <strong class="display-5" style="font-weight: 700">50%</strong>
+                Discount.
+              </p>
+              <a href="products">
+                <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
+                </i>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-3.avif" class="d-block" alt="..." />
+            <div
+              class="carousel-caption d-block slide-content d-none d-md-block"
+            >
+              <h5 class="text-warning h2 carousel-text">Summer Fashion</h5>
+              <p class="carousel-text">
+                <strong class="display-5" style="font-weight: 700">50%</strong>
+                Discount.
+              </p>
+              <a href="products">
+                <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
+                </i>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-4.avif" class="d-block" alt="..." />
+            <div
+              class="carousel-caption d-block slide-content d-none d-md-block"
+            >
+              <h5 class="text-warning h2 carousel-text">Summer Fashion</h5>
+              <p class="carousel-text">
+                <strong class="display-5" style="font-weight: 700">50%</strong>
+                Discount.
+              </p>
+              <a href="products">
+                <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <main>
+      <div class="shopping-list container d-flex">
+        <div class="products">
+          <div class="products-men"></div>
+          <div class="products-women"></div>
+        </div>
+        <div class="d-grid shopping-cart bg-light">
+          <header class="cart-header row">
+            <div class="col-12 col-sm-4 col1">Item</div>
+            <div class="col-12 col-sm-4 col2">Product Price</div>
+            <div class="col-12 col-sm-4 col3">Quantity</div>
+          </header>
+          <section class="cart-item">
+            <!-- Renderded cart will be here -->
+          </section>
+          <footer class="d-flex flex-column justify-content-end h5 cart-footer">
+            <div class="col-12 py-4 bg-dark text-white bg-gradient subtotal">
+              Subtotal (0 items): $0
+            </div>
+
+            <div class="col-12 py-4 bg-light taxes">Taxes (0 items): $0</div>
+            <div class="col-12 py-4 bg-dark text-white shipping">
+              Shipping (0 items): $0
+            </div>
+            <div class="col-12 py-4 bg-light shipping">Total (0 items): $0</div>
+            <div class="col-12 py-4 checkout">Proceed to checkout</div>
+          </footer>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

@@ -1,0 +1,45 @@
+.container {
+  max-width: 1400px;
+}
+
+.carousel-item {
+  max-height: calc(100vh - 50px);
+  height: 100vh;
+  position: relative;
+}
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.carousel-item .slide-content {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+.carousel-item .slide-content .carousel-text {
+  text-shadow: 1px 2px 1px #000;
+  font-weight: 500;
+}
+
+.shopping-list {
+  height: 200vh;
+}
+.shopping-list .products {
+  width: 60%;
+}
+.shopping-list .shopping-cart {
+  width: 40%;
+  padding-top: 5rem;
+  background-color: #f7f7cc !important;
+  grid-template-rows: 10vh max-height(65vh) 25vh;
+}
+.shopping-list .shopping-cart .cart {
+  height: auto;
+  border: 3px solid red;
+}
+
+/*# sourceMappingURL=app.css.map */
