@@ -29,17 +29,56 @@
   height: 200vh;
 }
 .shopping-list .products {
-  width: 60%;
+  width: 65%;
+}
+.shopping-list .products .products-men {
+  max-width: 95%;
+  margin: 0 auto;
 }
 .shopping-list .shopping-cart {
-  width: 40%;
+  width: 35%;
   padding-top: 5rem;
   background-color: #f7f7cc !important;
-  grid-template-rows: 10vh max-height(65vh) 25vh;
+  grid-template-rows: 10vh 10vh 55vh 25vh;
 }
-.shopping-list .shopping-cart .cart {
-  height: auto;
-  border: 3px solid red;
+
+.shopping-bag {
+  padding: 10px 5px;
+  margin: 0 auto;
+}
+
+.shopping-bag a {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-bag a img {
+  width: 32px;
+  height: 32px;
+}
+
+.shopping-bag .total-items-in-cart {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.products .card {
+  display: grid !important;
+  grid-template-rows: 50% 50% !important;
+}
+
+@media (max-width: 567px) {
+  .products .card {
+    display: grid !important;
+    grid-template-rows: auto auto !important;
+  }
+}
+@media (min-width: 960px) {
+  .products .card {
+    display: grid !important;
+    grid-template-rows: auto max-content !important;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

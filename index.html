@@ -33,6 +33,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="/style/app.css" />
+    <script src="products.js" defer></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -201,10 +203,24 @@
     <main>
       <div class="shopping-list container d-flex">
         <div class="products">
-          <div class="products-men"></div>
-          <div class="products-women"></div>
+          <div class="products-men row p-0 g-1">
+            <!-- render porducts here -->
+            <h1 class="text-danger text-center">Men-Wearing</h1>
+          </div>
+          <div class="products-women row p-0 g-1">
+            <h1 class="text-danger text-center">Women-Wearing</h1>
+            <!-- render porducts here -->
+          </div>
         </div>
+
         <div class="d-grid shopping-cart bg-light">
+          <div id="cart" class="shopping-bag">
+            <a href="./cart.html">
+              <i class="fa fa-shopping-bag text-dark"></i>
+              Cart
+              <div class="total-items-in-cart">0</div>
+            </a>
+          </div>
           <header class="cart-header row">
             <div class="col-12 col-sm-4 col1">Item</div>
             <div class="col-12 col-sm-4 col2">Product Price</div>
