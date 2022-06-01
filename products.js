@@ -55,10 +55,10 @@ const productsMen = [
   },
 ];
 
-const productWomen = [
+const productsWomen = [
   {
     id: 6,
-    name: "T-shirt 6",
+    name: "T-shirt 1",
     price: 9.99,
     instock: 40,
     description:
@@ -67,7 +67,7 @@ const productWomen = [
   },
   {
     id: 7,
-    name: "T-shirt 6",
+    name: "T-shirt 2",
     price: 32.99,
     instock: 40,
     description:
@@ -76,7 +76,7 @@ const productWomen = [
   },
   {
     id: 8,
-    name: "T-shirt 6",
+    name: "T-shirt 3",
     price: 39.99,
     instock: 40,
     description:
@@ -85,7 +85,7 @@ const productWomen = [
   },
   {
     id: 9,
-    name: "T-shirt 6",
+    name: "T-shirt 4",
     price: 19.99,
     instock: 40,
     description:
@@ -94,7 +94,7 @@ const productWomen = [
   },
   {
     id: 10,
-    name: "T-shirt 6",
+    name: "T-shirt 5",
     price: 29.99,
     instock: 40,
     description:
