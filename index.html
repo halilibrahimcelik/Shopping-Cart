@@ -203,11 +203,11 @@
     <main>
       <div class="shopping-list container d-flex">
         <div class="products">
-          <div class="products-men row p-0 g-1">
+          <div id="men" class="products-men row p-0 g-1">
             <!-- render porducts here -->
             <h1 class="text-danger text-center">Men-Wearing</h1>
           </div>
-          <div class="products-women row p-0 g-1">
+          <div id="women" class="products-women row p-0 g-1">
             <h1 class="text-danger text-center">Women-Wearing</h1>
             <!-- render porducts here -->
           </div>
@@ -218,7 +218,7 @@
             <div>
               <i class="fa fa-shopping-bag display-6 text-success pe-2"></i>
               Cart
-              <div class="total-items-in-cart">0</div>
+              <div class="total-itemCart text-danger">0</div>
             </div>
           </div>
           <header class="cart-header row text-center">
@@ -234,11 +234,13 @@
               Subtotal (0 items): $0
             </div>
 
-            <div class="col-12 py-4 bg-light taxes">Taxes (0 items): $0</div>
+            <div class="col-12 py-4 bg-light taxes">Tax (18%): $0</div>
             <div class="col-12 py-4 bg-dark text-white shipping">
-              Shipping (0 items): $0
+              Shipping 15$: $0
             </div>
-            <div class="col-12 py-4 bg-light shipping">Total (0 items): $0</div>
+            <div class="col-12 py-4 bg-light totalPrice">
+              Total (0 items): $0
+            </div>
             <div class="col-12 py-4 checkout">Proceed to checkout</div>
           </footer>
         </div>
