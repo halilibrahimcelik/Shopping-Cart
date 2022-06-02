@@ -8,6 +8,10 @@ body {
   background-size: cover;
 }
 
+.nav-link, .navbar-brand {
+  font-weight: bold;
+}
+
 .carousel-item {
   max-height: calc(100vh - 50px);
   height: 100vh;

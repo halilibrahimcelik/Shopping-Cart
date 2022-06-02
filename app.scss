@@ -9,6 +9,13 @@ body{
     background-size: cover;
 
 }
+
+//! Navbar
+.nav-link, .navbar-brand{
+    font-weight: bold;
+}
+
+
 //! Slider carousel
 .carousel-item{
     max-height: calc(100vh - 50px);
