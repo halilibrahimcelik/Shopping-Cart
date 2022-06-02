@@ -69,7 +69,8 @@ background-image: url("../img/scattered-forcefields.svg") !important;
     width: 35%;
     padding-top:5rem;
     // padding-bottom: 10rem;
-;
+    border-radius: 10px;
+
 grid-template-rows: 10vh 10vh  55vh 25vh ;
 
 .cart-item{
@@ -111,6 +112,10 @@ grid-template-rows: 10vh 10vh  55vh 25vh ;
 
 
 
+  //!
+  footer {
+      color:grey;
+  }
   
   .products{
 

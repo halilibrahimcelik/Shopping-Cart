@@ -18,7 +18,7 @@ function renderProducts() {
     <div class="img-wrapper"><img src="${product.imgSrc}" class="card-img-top" /></div>
     <div class="d-flex flex-column card-body justify-content-center align-self-center">
       <h5 class="card-title text-center">${product.name}</h5>
-      <h5 class="card-title text-center">${product.price}</h5>
+      <h5 class="card-title text-center h5">${product.price}</h5>
       <p class="card-text  text-center">
       ${product.description}
       </p>
@@ -36,7 +36,7 @@ function renderProducts() {
     <div class="img-wrapper"><img src="${product.imgSrc}" class="card-img-top" /></div>
     <div class="d-flex flex-column card-body justify-content-center align-self-center">
       <h5 class="card-title text-center">${product.name}</h5>
-      <h5 class="card-title text-center">${product.price}</h5>
+      <h5 class="card-title text-center">${product.price} </h5>
       <p class="card-text  text-center">
       ${product.description}
       </p>
@@ -162,9 +162,9 @@ function renderCartItems() {
                 alt="${item.name}"
                 
               />
-              <p>${item.name}</p>
+              <p class="h6" >${item.name}</p>
             </div>
-            <div class="col-12 col-lg-4 cart-info-price">${item.price}</div>
+            <div class="col-12 col-lg-4 cart-info-price h5">${item.price}</div>
     
             <div class="col-12 col-lg-4 d-flex flex-column gap-2 buttons">
             <div

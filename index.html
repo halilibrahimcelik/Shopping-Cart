@@ -198,7 +198,7 @@
     </section>
 
     <!-- Products -->
-    <main>
+    <main class="mt-5 mb-5">
       <div id="products" class="shopping-list container d-flex">
         <div class="products">
           <div id="men" class="products-men row p-0 g-1">
@@ -222,9 +222,9 @@
             </div>
             <div class="cart-item-wrapper">
               <header class="d-none d-lg-flex cart-header row text-center">
-                <div class="col-12 col-sm-4 col1">Item</div>
-                <div class="col-12 col-sm-4 col2">Product Price</div>
-                <div class="col-12 col-sm-4 col3">Quantity</div>
+                <div class="col-12 col-sm-4 col1 h5">Item</div>
+                <div class="col-12 col-sm-4 col2 h5">Product Price</div>
+                <div class="col-12 col-sm-4 col3 h5">Quantity</div>
               </header>
               <section class="cart-item d-flex flex-column gap-2">
                 <!-- Renderded cart will be here -->
@@ -233,11 +233,11 @@
             <footer
               class="d-flex flex-column justify-content-end h5 cart-footer"
             >
-              <div class="col-12 py-4 bg-dark text-white bg-gradient subtotal">
+              <div class="col-12 py-4 bg-warning subtotal">
                 Subtotal (0 items): $0
               </div>
               <div class="col-12 py-4 bg-light taxes">Tax (18%): $0</div>
-              <div class="col-12 py-4 bg-dark text-white shipping">
+              <div class="col-12 py-4 bg-warning shipping">
                 Shipping 15$: $0
               </div>
               <div class="col-12 py-4 bg-light totalPrice">
@@ -248,5 +248,33 @@
         </div>
       </div>
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="bg-dark">
+        <h1 class="text-center text-danger">CONTACT US</h1>
+        <ul class="list-group list-group-flush w-50">
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-phone text-danger h4 pe-3"></i>+0312 200 01 01
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-mail-bulk text-danger h4 pe-3"></i
+            >shoppingCa@info.com
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-address-book text-danger h4 pe-3"></i>Armada Plaza
+            No:3
+          </li>
+        </ul>
+
+        <div class="text-end">
+          <a href="#" class="mx-auto">
+            <i
+              class="fas fa-circle-arrow-up text-danger display-6 me-3 my-3"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
