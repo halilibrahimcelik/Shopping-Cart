@@ -19,7 +19,7 @@ function renderProducts() {
     <div class="d-flex flex-column card-body justify-content-center align-self-center">
       <h5 class="card-title text-center">${product.name}</h5>
       <h5 class="card-title text-center">${product.price}</h5>
-      <p class="card-text">
+      <p class="card-text  text-center">
       ${product.description}
       </p>
       <div class="add-to-cart align-self-center" onclick="addToCartHandler(${product.id})">
@@ -37,7 +37,7 @@ function renderProducts() {
     <div class="d-flex flex-column card-body justify-content-center align-self-center">
       <h5 class="card-title text-center">${product.name}</h5>
       <h5 class="card-title text-center">${product.price}</h5>
-      <p class="card-text">
+      <p class="card-text  text-center">
       ${product.description}
       </p>
       <div class="add-to-cart align-self-center" onclick="addToCartHandler(${product.id})">

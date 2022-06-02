@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url(/img/rainbow-vortex.svg) !important;
+  background-image: url(rainbow-vortex.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,7 +46,7 @@ body {
 .shopping-cart {
   width: 35%;
   padding-top: 5rem;
-  background-image: url(/img/scattered-forcefields.svg);
+  background-image: url(scattered-forcefields.svg);
   grid-template-rows: 10vh 10vh 55vh 25vh;
 }
 .shopping-cart .cart-item .cart-img {

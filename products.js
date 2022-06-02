@@ -6,7 +6,7 @@ const productsMen = [
     instock: 100,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-men-1.avif",
+    imgSrc: "img/img-men-1.avif",
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ const productsMen = [
     instock: 43,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-men-2.avif",
+    imgSrc: "img/img-men-2.avif",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const productsMen = [
     instock: 10,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-men-3.avif",
+    imgSrc: "img/img-men-3.avif",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const productsMen = [
     instock: 5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-men-4.avif",
+    imgSrc: "img/img-men-4.avif",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const productsMen = [
     instock: 4,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-men-5.avif",
+    imgSrc: "img/img-men-5.avif",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const productsMen = [
     instock: 40,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-men-7.avif",
+    imgSrc: "img/img-men-7.avif",
   },
 ];
 
@@ -63,7 +63,7 @@ const productsWomen = [
     instock: 40,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-women-1.avif",
+    imgSrc: "img/img-women-1.avif",
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ const productsWomen = [
     instock: 40,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-women-2.avif",
+    imgSrc: "img/img-women-2.avif",
   },
   {
     id: 8,
@@ -81,7 +81,7 @@ const productsWomen = [
     instock: 40,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-women-3.avif",
+    imgSrc: "img/img-women-3.avif",
   },
   {
     id: 9,
@@ -90,7 +90,7 @@ const productsWomen = [
     instock: 40,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-women-4.avif",
+    imgSrc: "img/img-women-4.avif",
   },
   {
     id: 10,
@@ -99,7 +99,7 @@ const productsWomen = [
     instock: 40,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-women-5.avif",
+    imgSrc: "img/img-women-5.avif",
   },
   {
     id: 11,
@@ -108,6 +108,6 @@ const productsWomen = [
     instock: 40,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-    imgSrc: "/img/img-women-6.avif",
+    imgSrc: "img/img-women-6.avif",
   },
 ];
