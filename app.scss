@@ -3,6 +3,12 @@
 }
 
 
+body{
+    background-image: url(/img/rainbow-vortex.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 //! Slider carousel
 .carousel-item{
     max-height: calc(100vh - 50px);
