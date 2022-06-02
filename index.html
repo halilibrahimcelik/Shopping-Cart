@@ -123,7 +123,7 @@
                 <strong class="display-5" style="font-weight: 700">50%</strong>
                 Discount.
               </p>
-              <a href="products">
+              <a href="#products">
                 <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
                 </i>
               </a>
@@ -139,7 +139,7 @@
                 <strong class="display-5" style="font-weight: 700">50%</strong>
                 Discount.
               </p>
-              <a href="products">
+              <a href="#products">
                 <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
                 </i>
               </a>
@@ -155,7 +155,7 @@
                 <strong class="display-5" style="font-weight: 700">50%</strong>
                 Discount.
               </p>
-              <a href="products">
+              <a href="#products">
                 <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
                 </i>
               </a>
@@ -171,7 +171,7 @@
                 <strong class="display-5" style="font-weight: 700">50%</strong>
                 Discount.
               </p>
-              <a href="products">
+              <a href="#products">
                 <i class="fa-solid fa-circle-arrow-down display-6 text-danger">
                 </i>
               </a>
@@ -201,48 +201,52 @@
 
     <!-- Products -->
     <main>
-      <div class="shopping-list container d-flex">
+      <div id="products" class="shopping-list container d-flex">
         <div class="products">
           <div id="men" class="products-men row p-0 g-1">
             <!-- render porducts here -->
             <h1 class="text-danger text-center">Men-Wearing</h1>
           </div>
-          <div id="women" class="products-women row p-0 g-1">
+          <div id="women" class="products-women row p-0 g-1 mx-3">
             <h1 class="text-danger text-center">Women-Wearing</h1>
             <!-- render porducts here -->
           </div>
         </div>
 
-        <div class="shopping-cart bg-light">
-          <div class="shopping-bag">
-            <div>
-              <i class="fa fa-shopping-bag display-6 text-success pe-2"></i>
-              Cart
-              <div class="total-itemCart text-danger">0</div>
+        <div class="shopping-cart bg-light sticky-top">
+          <div class="sticky-top shopping-scroll">
+            <div class="shopping-bag">
+              <div>
+                <i class="fa fa-shopping-bag display-6 text-success pe-2"></i>
+                Cart
+                <div class="total-itemCart text-danger">0</div>
+              </div>
             </div>
+            <div class="cart-item-wrapper">
+              <header class="d-none d-lg-flex cart-header row text-center">
+                <div class="col-12 col-sm-4 col1">Item</div>
+                <div class="col-12 col-sm-4 col2">Product Price</div>
+                <div class="col-12 col-sm-4 col3">Quantity</div>
+              </header>
+              <section class="cart-item d-flex flex-column gap-2">
+                <!-- Renderded cart will be here -->
+              </section>
+            </div>
+            <footer
+              class="d-flex flex-column justify-content-end h5 cart-footer"
+            >
+              <div class="col-12 py-4 bg-dark text-white bg-gradient subtotal">
+                Subtotal (0 items): $0
+              </div>
+              <div class="col-12 py-4 bg-light taxes">Tax (18%): $0</div>
+              <div class="col-12 py-4 bg-dark text-white shipping">
+                Shipping 15$: $0
+              </div>
+              <div class="col-12 py-4 bg-light totalPrice">
+                Total (0 items): $0
+              </div>
+            </footer>
           </div>
-          <header class="cart-header row text-center">
-            <div class="col-12 col-sm-4 col1">Item</div>
-            <div class="col-12 col-sm-4 col2">Product Price</div>
-            <div class="col-12 col-sm-4 col3">Quantity</div>
-          </header>
-          <section class="cart-item">
-            <!-- Renderded cart will be here -->
-          </section>
-          <footer class="d-flex flex-column justify-content-end h5 cart-footer">
-            <div class="col-12 py-4 bg-dark text-white bg-gradient subtotal">
-              Subtotal (0 items): $0
-            </div>
-
-            <div class="col-12 py-4 bg-light taxes">Tax (18%): $0</div>
-            <div class="col-12 py-4 bg-dark text-white shipping">
-              Shipping 15$: $0
-            </div>
-            <div class="col-12 py-4 bg-light totalPrice">
-              Total (0 items): $0
-            </div>
-            <div class="col-12 py-4 checkout">Proceed to checkout</div>
-          </footer>
         </div>
       </div>
     </main>

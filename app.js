@@ -170,17 +170,17 @@ function renderCartItems() {
             <div
                 class="d-flex unit-btns justify-content-center justify-content-lg-evenly"
               >
-                <button class="btn btn-warning m-1" id="minus-product1" onclick="changeQuantity('minus', ${item.id})">
+                <a class="btn btn-warning m-1" id="minus-product1" onclick="changeQuantity('minus', ${item.id})">
                   -
-                </button>
+                </a>
                 <p class="number m-0 align-self-center">${item.numberOfUnits}</p>
-                <button class="btn btn-warning m-1" id="plus-product1" onclick="changeQuantity('plus', ${item.id})">
+                <a class="btn btn-warning m-1" id="plus-product1" onclick="changeQuantity('plus', ${item.id})">
                   +
-                </button>
+                </a>
               </div>
-              <button id="removeBtn" class="btn btn-danger remove m-auto"  onclick="removeCartHandler( ${item.id})" >
+              <a id="removeBtn" class="btn btn-danger remove m-auto"  onclick="removeCartHandler( ${item.id})" >
                 Remove
-                </button>
+                </a>
             </div>
             </div>`;
   });

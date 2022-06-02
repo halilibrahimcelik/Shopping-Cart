@@ -49,10 +49,11 @@
 }
 
 .shopping-cart{
+
     width: 35%;
     padding-top:5rem;
     // padding-bottom: 10rem;
-background-color: #f7f7cc !important;
+background-image: url(/img/scattered-forcefields.svg);
 grid-template-rows: 10vh 10vh  55vh 25vh ;
 
 .cart-item{
@@ -63,10 +64,13 @@ grid-template-rows: 10vh 10vh  55vh 25vh ;
         object-fit: cover;
     }
 }
+
+
 }
 .shopping-bag {
     display: inline;
     padding: 10px 5px;
+    font-size: 2rem;
 
   }
   .shopping-bag div {
@@ -113,14 +117,15 @@ grid-template-rows: 10vh 10vh  55vh 25vh ;
         }
       }
   }
-  @media (min-width:960px) {
+  @media (min-width:568px)  {
     .products{
 
 
         .card{
             display:grid !important;
-            grid-template-rows: auto max-content !important;
+            grid-template-rows: auto max-content  !important;
          
         }
       }
   }
+
