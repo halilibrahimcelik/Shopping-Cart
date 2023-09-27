@@ -1,7 +1,7 @@
 # Shopping-Cart
 
 
- [Website link](https://halilibrahimcelik.github.io/Shopping-Cart-v1.0.0/#).
+ [Website link](https://halilibrahimcelik.github.io/Shopping-Cart/).
 
 My goal was to develop a real e-commerce website's checkout page for that project.
 ****************************
